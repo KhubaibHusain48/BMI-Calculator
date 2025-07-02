@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="Heading">BMI Calculator</string>
+    <string name="height">Enter Height(feet)</string>
+    <string name="heightInch">Enter Height(Inch)</string>
+    <string name="weight">Enter your weight</string>
+    <string name="button">Calculate BMI</string>
+    <string name="result">Result will be displayed here</string>
+</resources>
