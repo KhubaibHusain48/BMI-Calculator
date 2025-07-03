@@ -1,75 +1,82 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_marginLeft="100dp"
-    android:layout_marginTop="30dp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/Heading"
-        android:textSize="25sp"
-        android:textColor="#673AB7"
-        android:textStyle="bold"
         android:id="@+id/heading"
-        />
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/Heading"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="25sp"
+        android:textStyle="bold" />
 
     <EditText
+        android:id="@+id/weight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/weight"
         android:inputType="number"
-        android:textSize="20sp"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:id="@+id/weight"
-        />
+        android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/heightInch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/heightInch"
-        android:textSize="20sp"
-        android:layout_margin="11dp"
         android:inputType="number"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:id="@+id/heightInch"
-        />
+        android:textSize="20sp" />
 
     <EditText
+        android:id="@+id/normalHeight"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:hint="@string/height"
         android:inputType="number"
-        android:textSize="20sp"
+        android:textAlignment="center"
         android:textColor="@color/white"
-        android:layout_margin="11dp"
-        android:id="@+id/normalHeight"
-        />
+        android:textSize="20sp" />
 
     <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/button"
-        android:textSize="20sp"
-        android:layout_margin="10dp"
-        android:id="@+id/button"
-        />
+        android:textSize="20sp" />
 
     <TextView
+        android:id="@+id/BMIValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/BMI_Display"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/result"
         android:textSize="15sp"
-        android:textStyle="bold"
-        android:id="@+id/result"
-        />
+        android:textStyle="bold" />
 
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Normal_BMI"
+        android:textStyle="bold" />
 </LinearLayout>
