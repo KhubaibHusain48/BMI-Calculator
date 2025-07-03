@@ -15,12 +15,6 @@ A simple, elegant Android application that calculates Body Mass Index (BMI) usin
 
 ---
 
-## 📸 Screenshots
-
-> *(You can add actual screenshots here once you have them)*
-
----
-
 ## 🛠 Tech Stack
 
 - **Language:** Java ☕  
